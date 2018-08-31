@@ -7,3 +7,7 @@
     - name: Debug message
       debug:
         msg: "hello world"
+
+    - name: run show version on remote devices
+      ios_command:
+        commands: show version
